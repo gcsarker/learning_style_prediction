@@ -1,1 +1,5 @@
-# learning_style_prediction
+# Identifying Student Learning Style based on VARK Model
+
+<p>This study presents the development of a series of questionnaires designed to identify students' learning styles based on the VARK (Visual, Auditory, Reading-Writing, Kinesthetic) learning style model. In this model, visual learners prefer images, graphics, and presentations; auditory learners benefit from listening to lectures and tutorials; reading-writing learners prefer reading books, participating in forums, and writing papers; and kinesthetic learners favor hands-on experiences.</p> 
+
+<p>We experimented with four machine learning models—Support Vector Machine (SVM), Decision Tree, Random Forest, and Artificial Neural Network (ANN)—to develop predictive models. Both classification and regression analyses were conducted. Initially, a multi-label classification was performed to categorize students into the four learning styles. Subsequently, regression analysis was used to determine the extent to which each learning style is preferred by individual students. The results show that the ANN model outperforms the other machine learning approaches in terms of predictive accuracy.</p>

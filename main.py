@@ -63,7 +63,7 @@ if __name__ == '__main__':
         train(training_data, validation_data)
 
     else:
-        test_df = pd.read_csv('dataset/test_data2.csv')
+        test_df = pd.read_csv('dataset/test_data.csv')
         X_test = test_df.loc[:, 'Q0':'Q27']
         X_test = X_test.fillna(0.5)
         y_test = test_df[['Visual', 'Auditorial', 'Reading', 'Kinesthetic']]
